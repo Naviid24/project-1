@@ -1,29 +1,218 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
 /* Astrik wildcard selector to override default styles added by the browser */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
- }
-/* General rules */
-body {
-    min-height: 100vw;
-    /* allow us to strech larger than the hight of screen when there is enough content for the user needs t scroll */
-    display: flex;
-    /* to push Footer down use these rules  */
-    flex-direction: column;
-    color: #464f48;
-    font-family: lato, sans-serif;
-    /* picked font family from Google Fonts website, copied link from the website and paste it top of the page */
-    background-color: aliceblue;
- }
-header {
-    background-color:red;
-}
-main {
-    background-color: green;
-    flex: 1 0 ;
-}
-footer {
-    background-color: black;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
 }
 
+/* General rules */
+body {
+   min-height: 100vw;
+   /* allow us to strech larger than the hight of screen when there is enough content for the user needs t scroll */
+   display: flex;
+   /* to push Footer down use these rules  */
+   flex-direction: column;
+   color: #3a3a3a;
+   font-family: Roboto,sans-serif;
+   /* picked font family from Google Fonts website, copied link from the website and paste it top of the page */
+}
+
+h1,
+h2,
+h3 {
+   font-family: Cabin  , sans-serif;
+   /* Oswald is picked from Google Fonts and secon=d value is for fallback */
+   color: #b84;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+}
+
+/* Header */
+header {
+   background-color: #ffffff;
+   padding: 0 1rem;
+   /* give just padding left and right */
+   position: fixed;
+   /* with this position header is gonna stay on the top always even when you scrol */
+   z-index: 99;
+   /* put 99 value to make sure if there is another z-index value for another content */
+   width: 100%;
+   box-shadow: 0 2px 2px #3a3a3a;
+   /* first value is for horizental offsets and second is for vertical offsets and third number for howmuch dark it should be and the last value is shadow color*/
+   display: flex;
+   /* make them in a row */
+   justify-content: space-between;
+   align-items: baseline;
+   /* show in a line vertically */
+}
+
+/* Logo */
+header a {
+   text-decoration: none;
+   /* to disapear underline */
+   color: inherit;
+   /* inherit value means get the body color */
+}
+#logo {
+    color: #b84;
+}
+
+/* Navigation bar */
+#menu {
+   font-size: 110%;
+   list-style-type: none;
+   /* to disappear listing points style */
+   letter-spacing: 2px;
+}
+
+#menu li {
+   margin-bottom: 1em;
+   /* to make vertical space between the navbars */
+}
+
+/* givven this class to first <a> element to show user where they are in the page when they are navigating */
+.active {
+   border-bottom: 1px solid #3a3a3a;
+   /* to mark nav bar where the user is */
+}
+
+/* Navbar styles with dropdown */
+nav {
+   position: absolute;
+   /* absolute positioning takes an element out of the normal flow of the page structure */
+   background-color: #ffffff;
+   /* back to white color as we want header to be a single object when it is open */
+   width: 100%;
+   left: 0;
+   padding: 0 1rem;
+   box-shadow: 0 2px 2px #3a3a3a;
+   display: none;
+   /* to hide Navbar till user click on it */
+   top: 100%;
+   /* this value means top of the element will start from bottom of the header  */
+}
+
+#nav-toggle:checked~nav {
+   display: block;
+
+}
+
+#nav-toggle {
+   display: none;
+   /* to hide the checkbox sign */
+}
+
+.nav-toggle-label {
+   font: 2rem;
+}
+
+/* Main */
+main {
+   flex: 1 0 auto;
+   /* make main element to take up any surplus space to push footer down */
+   margin-top: 47px;
+   /* to push the content down */
+}
+
+/* Hero section */
+#hero {
+   height: 600px;
+   width: 100%;
+   background-color: lightgreen;
+   background: url('../images/heroa.jpg') no-repeat center center/cover;
+   /* to be in center either vertically or horizentally */
+   position: relative;
+}
+
+#cover-text {
+   background-color: rgba(241, 167, 107, 0.238);
+   /* the last rgb value sets the opacity so it is semi-transparent */
+   font-size: 130%;
+   position: absolute;
+   /*with relative position in hero and absolute position in here will be placed relative to the Hero section */
+   bottom: 30px;
+   width: 80%;
+   min-height: 200px;
+   padding-top: 40px;
+   padding-left: 10px;
+}
+
+#cover-text>h2,
+#cover-text>h3 {
+   color:white;
+}
+
+/* Footer */
+#social-networks {
+   text-align: center;
+   padding: 20px 0;
+   display: flex;
+   justify-content: space-evenly;
+   list-style-type: none;
+}
+
+#social-networks i {
+   font-size: 160%;
+   padding: 5%;
+   color: #3a3a3a;
+}
+
+@media screen and (min-width: 768px) {
+
+   /* Header */
+   nav {
+      position: block;
+      /* to make sure Navbars always are displayed */
+      position: relative;
+      /* we want it to back to header */
+      box-shadow: none;
+      /* dosen't need box shadow in here */
+      width: fit-content;
+      /* this way no longer takes up all of the space in header */
+      padding-right: 1rem;
+   }
+
+   #menu {
+      display: flex;
+      /* to make them side by side */
+
+   }
+
+   #menu>li {
+      padding-left: 1rem;
+   }
+
+   .nav-toggle-label {
+      display: none;
+      /* to hide navbar sign */
+   }
+
+   #logo {
+      font-size: 280%;
+      line-height: 75px;
+      margin: 0 0.5rem;
+   }
+
+   /* Main content */
+   main {
+      /* push main content down to accomodate larger header */
+      margin-top: 79px;
+   }
+
+   /* Hero */
+   #cover-text {
+      width: 300px;
+      right: 50px;
+   }
+
+}
+
+@media screen and (min-width:992px) {
+   #menu a:hover {
+      border-bottom: 1px solid #3a3a3a;
+   }
+}

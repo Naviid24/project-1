@@ -1,25 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="decription" content="4x4 Advanture is the website for who want to go off road trips." />
     <meta name="keywords" content="off-road, trips, camping, cars on the road." />
     <meta name="author" content="4x4 Advanture" />
 
-    <!--stylesheet css link-->
-    <link href="assets/css/style.css" rel="stylesheet" />
+    <!--Title-->
+    <title> 4X4 Adventure</title>
+  
 
-<!-- Title -->
-    <title> 4X4 Adventure </title>
-    <link rel="icon" href="/assets/icon-logo/icon.png">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="assets/css/style.css" />
 
-</head>
-<body>
-    <header>Head</header>
+    <!-- Font awesome icon link -->
+   <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+  </head>
 
-    <main>Main</main>
+  <body>
+    <!--Header-->
+    <header>
+      <a href="index.html">
+        <h1 id="logo">4X4 Adventure</h1>
+      </a>
+      <input type="checkbox" id="nav-toggle" name="nav-toggle"> <!-- use checbox to click on it for Navbars -->
+      <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+      <nav>
+        <ul id="menu" >
+          <li><a href="index.html" class="active">Home </a></li>
+          <li><a href="Tours.html">Tours </a></li>
+          <li><a href="Gallery.html">Gallery </a></li>
+          <li><a href="Signup.html">Signup </a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <footer>Footer</footer>
-</body>
+    <!--Main content-->
+    <main>
+      <section id="hero" >
+           <div id="cover-text">
+            <h2>4X4 Adventure</h2>
+            <h3>Make your dream true</h3>
+           </div>
+   
+      </section>
+    </main>
+
+    <!--Footer-->
+    <footer>
+      <ul id="social-networks" >
+        <li><a href="https://www.facebook.com" target="_blank" rel="noopener" aria_label="visit our facebook page (opens in a new tab )"> <i class="fa-brands fa-facebook"></i></a></li> <!-- use rel attribute to protect our site from possible attack an use Aria-label attribute becauce we replace text placeholder with icon --> 
+        <li><a href="https://www.youtube.com" target="_blank" rel="noopener" aria_label="visit our youtube page (opens in a new tab )"> <i class="fa-brands fa-youtube"></i></a></li>
+        <li><a href="https://www.instagram.com" target="_blank" rel="noopener" aria_label="visit our instagram page (opens in a new tab )"> <i class="fa-brands fa-instagram"></i></a></li> 
+        <li><a href="https://www.twitter.com" target="_blank" rel="noopener" aria_label="visit our twitter page (opens in a new tab )"> <i class="fa-brands fa-twitter"></i></a></li> 
+      </ul>
+    </footer>
+ <!-- Font awesome icon link -->
+ <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+  </body>
 </html>
