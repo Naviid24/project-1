@@ -61,19 +61,6 @@ header a {
     color: #b84;
 }
 
-/* Navigation bar */
-#menu {
-   font-size: 110%;
-   list-style-type: none;
-   /* to disappear listing points style */
-   letter-spacing: 2px;
-}
-
-#menu li {
-   margin-bottom: 1em;
-   /* to make vertical space between the navbars */
-}
-
 /* givven this class to first <a> element to show user where they are in the page when they are navigating */
 .active {
    border-bottom: 1px solid #3a3a3a;
@@ -94,11 +81,21 @@ nav {
    /* to hide Navbar till user click on it */
    top: 100%;
    /* this value means top of the element will start from bottom of the header  */
+   text-align: right
 }
-
+#menu {
+    font-size: 110%;
+    list-style-type: none;
+    /* to disappear listing points style */
+    letter-spacing: 2px;
+ }
+ 
+ #menu li {
+    margin-bottom: 1em;
+    /* to make vertical space between the navbars */
+ }
 #nav-toggle:checked~nav {
    display: block;
-
 }
 
 #nav-toggle {
@@ -122,15 +119,13 @@ main {
 #hero {
    height: 600px;
    width: 100%;
-   background-color: lightgreen;
+   background-color: rgb(238, 219, 144);
    background: url('../images/heroa.jpg') no-repeat center center/cover;
    /* to be in center either vertically or horizentally */
    position: relative;
 }
 
 #cover-text {
-   background-color: rgba(241, 167, 107, 0.238);
-   /* the last rgb value sets the opacity so it is semi-transparent */
    font-size: 130%;
    position: absolute;
    /*with relative position in hero and absolute position in here will be placed relative to the Hero section */
@@ -174,12 +169,12 @@ main {
       width: fit-content;
       /* this way no longer takes up all of the space in header */
       padding-right: 1rem;
+      display: flex;
    }
 
    #menu {
       display: flex;
       /* to make them side by side */
-
    }
 
    #menu>li {
