@@ -16,14 +16,12 @@ body {
    display: flex;
    /* to push Footer down use these rules  */
    flex-direction: column;
-   color: #3a3a3a;
+   color:#464f48;
    font-family: Roboto,sans-serif;
    /* picked font family from Google Fonts website, copied link from the website and paste it top of the page */
 }
 
-h1,
-h2,
-h3 {
+#cover-text > h2, #cover-text > h3, a > h1 {
    font-family: Cabin  , sans-serif;
    /* Oswald is picked from Google Fonts and secon=d value is for fallback */
    color: #b84;
@@ -41,7 +39,7 @@ header {
    z-index: 99;
    /* put 99 value to make sure if there is another z-index value for another content */
    width: 100%;
-   box-shadow: 0 2px 2px #3a3a3a;
+   box-shadow: 0 2px 2px #464f48;
    /* first value is for horizental offsets and second is for vertical offsets and third number for howmuch dark it should be and the last value is shadow color*/
    display: flex;
    /* make them in a row */
@@ -63,7 +61,7 @@ header a {
 
 /* givven this class to first <a> element to show user where they are in the page when they are navigating */
 .active {
-   border-bottom: 1px solid #3a3a3a;
+   border-bottom: 1px solid #464f48;
    /* to mark nav bar where the user is */
 }
 
@@ -76,7 +74,7 @@ nav {
    width: 100%;
    left: 0;
    padding: 0 1rem;
-   box-shadow: 0 2px 2px #3a3a3a;
+   box-shadow: 0 2px 2px #464f48;
    display: none;
    /* to hide Navbar till user click on it */
    top: 100%;
@@ -141,7 +139,27 @@ main {
    color:white;
 }
 
+/* welcoming section */
+.welcoming-note {
+    background-color: #b84;
+    border-radius: 0px;
+    padding: 0px 7px;
+    line-height: 1.5;
+    text-align: center;
+    font-family: Cabin, sans-serif;
+    margin-top: 10px;
+}
+.welcoming-note > h2, .welcoming-note > h3 {
+    color: beige;
+    font-size: medium;
+    padding: 1rem 0 ;
+
+}
 /* Footer */
+footer {
+    background-color: #ffffff;
+    transition: 0.3s;
+}
 #social-networks {
    text-align: center;
    padding: 20px 0;
