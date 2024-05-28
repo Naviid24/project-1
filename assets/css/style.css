@@ -86,6 +86,7 @@ nav {
     list-style-type: none;
     /* to disappear listing points style */
     letter-spacing: 2px;
+    color: #b84;
  }
  
  #menu li {
@@ -141,7 +142,7 @@ main {
 
 /* welcoming section */
 .welcoming-note {
-    background-color: #b84;
+    background-color: #fda;
     border-radius: 0px;
     padding: 0px 7px;
     line-height: 1.5;
@@ -150,14 +151,16 @@ main {
     margin-top: 10px;
 }
 .welcoming-note > h2, .welcoming-note > h3 {
-    color: beige;
+    color:#fda;
     font-size: medium;
-    padding: 1rem 0 ;
+    background-color: #b84;
+    padding: 1rem 0;
 
 }
 /* Reasons */
 .benfits-box {
    display: flex;
+   background: url('../images/11.jpg') no-repeat center center/cover;
    flex-wrap: wrap;
    justify-content: space-evenly;
    align-items: center;
@@ -168,7 +171,9 @@ main {
    gap: 1.5em;
 }
 .benfits-box > h1 {
-   align-
+   text-align: center;
+   width: 100%;
+   color: brown;
 }
 .tour-content {
    width: 800px;
@@ -176,12 +181,12 @@ main {
    text-align: center;
    background-color: #fda;
    border-radius: 20px;
-   padding: 20px;
+   padding: 1rem;
    box-shadow: rgba(1, 13, 24, 0.4) 0px 8px 24px;
 }
 /* Footer */
 footer {
-    background-color: #ffffff;
+    background-color: #b84;
     transition: 0.3s;
 }
 #social-networks {
@@ -229,7 +234,7 @@ footer {
    }
 
    #logo {
-      font-size: 280%;
+      font-size: 260%;
       line-height: 75px;
       margin: 0 0.5rem;
    }
