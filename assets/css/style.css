@@ -93,6 +93,7 @@ nav {
     margin-bottom: 1em;
     /* to make vertical space between the navbars */
  }
+
 #nav-toggle:checked~nav {
    display: block;
 }
@@ -105,7 +106,6 @@ nav {
 .nav-toggle-label {
    font: 2rem;
 }
-
 /* Main */
 main {
    flex: 1 0 auto;
@@ -147,8 +147,6 @@ main {
     line-height: 1.5;
     text-align: center;
     font-family: Cabin, sans-serif;
-    margin-top: 10px;
-    
 }
 .welcoming-note > h2, .welcoming-note > h3 {
     color:#b84;
