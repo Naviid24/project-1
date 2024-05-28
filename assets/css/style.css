@@ -249,6 +249,31 @@ footer {
     height: auto;
     gap: 1em;
 }
+/*          G  a  l  l  e  r  y    p  a  g  e           */
+.gal-box {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-top: 80px;
+   padding-bottom: 75px;
+   width: 100%;
+   height: auto;
+   gap: 1em;
+}
+.gal-box > img {
+   width: 300px;
+   height: 300px;
+   border-radius: 20px;
+   box-shadow: rgba(1, 13, 24, 0.4) 0px 8px 24px;
+   
+}
+.gal-box > h2 {
+   width: 100%;
+   text-align: center;
+   letter-spacing: 2px;
+}
+
 @media screen and (min-width: 768px) {
 
    /* Header */
@@ -296,7 +321,10 @@ footer {
       width: 300px;
       right: 50px;
    }
-
+.gal-box img {
+   margin-left: 5px;
+}
+}
 }
 
 @media screen and (min-width:992px) {
