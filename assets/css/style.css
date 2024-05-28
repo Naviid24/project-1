@@ -144,18 +144,18 @@ main {
 .welcoming-note {
     background-color: #fda;
     border-radius: 0px;
-    padding: 0px 7px;
     line-height: 1.5;
     text-align: center;
     font-family: Cabin, sans-serif;
     margin-top: 10px;
+    
 }
 .welcoming-note > h2, .welcoming-note > h3 {
-    color:#fda;
+    color:#b84;
     font-size: medium;
-    background-color: #b84;
+    background-color: #ffffff;
     padding: 1rem 0;
-
+    letter-spacing: 2px;
 }
 /* Reasons */
 .benfits-box {
@@ -173,7 +173,9 @@ main {
 .benfits-box > h1 {
    text-align: center;
    width: 100%;
-   color: brown;
+   color: #fda;
+   background-color: #b84;
+   letter-spacing: 2px;
 }
 .tour-content {
    width: 800px;
@@ -183,6 +185,9 @@ main {
    border-radius: 20px;
    padding: 1rem;
    box-shadow: rgba(1, 13, 24, 0.4) 0px 8px 24px;
+}
+.tour-content > h3 {
+   padding-bottom: 5px;
 }
 /* Footer */
 footer {
