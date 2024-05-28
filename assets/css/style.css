@@ -142,8 +142,7 @@ main {
 
 /* welcoming section */
 .welcoming-note {
-    background-color: #fda;
-    border-radius: 0px;
+    background-color: 
     line-height: 1.5;
     text-align: center;
     font-family: Cabin, sans-serif;
@@ -152,28 +151,43 @@ main {
     color:#b84;
     font-size: medium;
     background-color: #ffffff;
+    border-top: 1px solid #464f48;
     padding: 1rem 0;
     letter-spacing: 2px;
+    
 }
-/* Reasons */
-.benfits-box {
+/* Reasons to choose us */
+#times {
+   background: url('../images/11.jpg') no-repeat center center/cover ;
    display: flex;
-   background: url('../images/11.jpg') no-repeat center center/cover;
    flex-wrap: wrap;
    justify-content: space-evenly;
-   align-items: center;
-   margin-top: 10px;
-   padding-bottom: 30px;
-   width: 100%;
-   height: auto;
-   gap: 1.5em;
+   gap: 10px;
 }
-.benfits-box > h1 {
+#times div {
+   color: #ffffff;
+   background-color: rgb(0, 0, 0, .6);
+   padding: 15px;
    text-align: center;
-   width: 100%;
-   color: #fda;
-   background-color: #b84;
-   letter-spacing: 2px;
+   width: 200px;
+   height: 200px;
+   flex-basis: 200px;
+   flex-grow: 1;
+}
+#times h3 {
+   color: #b84;
+   margin-bottom: 20px;
+   letter-spacing: 1px;
+   text-align: center;
+}
+#times p {
+   line-height: 25px;
+}
+#benfits h2 {
+   text-align: center;
+   color: #b84;
+   padding: 20px 0 ;
+   border-top: 1px solid #464f48;
 }
 .tour-content {
    width: 800px;
@@ -184,13 +198,10 @@ main {
    padding: 1rem;
    box-shadow: rgba(1, 13, 24, 0.4) 0px 8px 24px;
 }
-.tour-content > h3 {
-   padding-bottom: 5px;
-}
+
 /* Footer */
 footer {
     background-color: #b84;
-    transition: 0.3s;
 }
 #social-networks {
    text-align: center;
