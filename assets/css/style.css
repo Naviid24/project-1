@@ -275,7 +275,7 @@ main {
    letter-spacing: 2px;
 }
 /*............M a i n   f o r   S i g n  u p............*/
-.main {
+.form-box {
    /* to push footer down */
    flex: 1 0 auto;
    margin-top:  47px;
