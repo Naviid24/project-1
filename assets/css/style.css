@@ -29,7 +29,8 @@ body {
    letter-spacing: 2px;
 }
 
-/* Header */
+/*      H e a d e r   f o r   a l l   p a g e s      */
+
 header {
    background-color: #ffffff;
    padding: 0 1rem;
@@ -47,7 +48,6 @@ header {
    align-items: baseline;
    /* show in a line vertically */
 }
-
 /* Logo */
 header a {
    text-decoration: none;
@@ -55,16 +55,17 @@ header a {
    color: inherit;
    /* inherit value means get the body color */
 }
+header label {
+   font-size: 140%;
+}
 #logo {
     color: #b84;
 }
-
 /* givven this class to first <a> element to show user where they are in the page when they are navigating */
 .active {
    border-bottom: 1px solid #464f48;
    /* to mark nav bar where the user is */
 }
-
 /* Navbar styles with dropdown */
 nav {
    position: absolute;
@@ -87,33 +88,30 @@ nav {
     /* to disappear listing points style */
     letter-spacing: 2px;
     color: #b84;
- }
- 
+ } 
  #menu li {
     margin-bottom: 1em;
     /* to make vertical space between the navbars */
  }
-
 #nav-toggle:checked~nav {
    display: block;
 }
-
 #nav-toggle {
    display: none;
    /* to hide the checkbox sign */
 }
-
 .nav-toggle-label {
    font: 2rem;
 }
-/* Main */
+
+/*       M a i n   f o r   H o m e   p a g e        */
+
 main {
    flex: 1 0 auto;
    /* make main element to take up any surplus space to push footer down */
    margin-top: 47px;
    /* to push the content down */
 }
-
 /* Hero section */
 #hero {
    height: 600px;
@@ -123,7 +121,6 @@ main {
    /* to be in center either vertically or horizentally */
    position: relative;
 }
-
 #cover-text {
    font-size: 130%;
    position: absolute;
@@ -134,12 +131,10 @@ main {
    padding-top: 40px;
    padding-left: 10px;
 }
-
 #cover-text>h2,
 #cover-text>h3 {
    color:white;
 }
-
 /* welcoming section */
 .welcoming-note {
     background-color: 
@@ -154,7 +149,6 @@ main {
     border-top: 1px solid #464f48;
     padding: 1rem 0;
     letter-spacing: 2px;
-    
 }
 /* Reasons to choose us */
 #times {
@@ -199,25 +193,19 @@ main {
    box-shadow: rgba(1, 13, 24, 0.4) 0px 8px 24px;
 }
 
-/* Footer */
-footer {
-    background-color: #b84;
-}
-#social-networks {
-   text-align: center;
-   padding: 20px 0;
-   display: flex;
-   justify-content: space-evenly;
-   list-style-type: none;
-}
+/*............M i n   f o r   T o u r   p a g e..........*/
 
-#social-networks i {
-   font-size: 160%;
-   padding: 5%;
-   color: #3a3a3a;
-}
-/*       T  O  U  R  S    P  A  G  E        */
 /* upcoming tours heading */
+.upcoming>h3 {
+   text-align: center;
+   color: #464f48;
+   box-shadow: rgba(5, 60, 112, 0.4) 10px 15px 30px;
+   margin-top: 47px;
+   padding: 10px;
+   font-size: large;
+   letter-spacing: 1.5px;
+   line-height: 120%;
+}
 .upcoming>h3 {
    text-align: center;
    color: #464f48;
@@ -260,7 +248,9 @@ footer {
     height: auto;
     gap: 1em;
 }
-/*          G  a  l  l  e  r  y    p  a  g  e           */
+
+/*........M a i n   f o r    G a l l e r y   p a g e........*/
+
 .gal-box {
    display: flex;
    flex-wrap: wrap;
@@ -284,6 +274,39 @@ footer {
    text-align: center;
    letter-spacing: 2px;
 }
+/*............M a i n   f o r   S i g n  u p............*/
+#signup {
+   background: url('../images/contact.jpg')no-repeat center center/cover;
+   min-height: 100vw;
+   text-align: center;
+}
+#signup-form {
+   padding: 0 30px;
+}
+#signup-form > h2 {
+       color: #ffffff;
+       padding: 30px;
+       letter-spacing: 1px;
+}
+
+/*............F o o t e r   f o r   a l l   p a g e s...........*/
+
+footer {
+    background-color: #b84;
+}
+#social-networks {
+   text-align: center;
+   padding: 20px 0;
+   display: flex;
+   justify-content: space-evenly;
+   list-style-type: none;
+}
+#social-networks i {
+   font-size: 160%;
+   padding: 5%;
+   color: #3a3a3a;
+}
+/*          M e d i a  q u i e r i e s           */
 
 @media screen and (min-width: 768px) {
 
