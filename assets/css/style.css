@@ -11,7 +11,7 @@
 
 /* General rules */
 body {
-   
+  /* min-height: 100%; */
    /* allow us to strech larger than the hight of screen when there is enough content for the user needs t scroll */
    display: flex;
    /* to push Footer down use these rules  */
