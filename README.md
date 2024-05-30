@@ -1,10 +1,10 @@
 <h1 align="center">4X4Adventure Website</h1>
 
-[View the live project here.](https://codeinstitute.net)
+[View the live project here.](https://naviid24.github.io/project-1/)
 
 It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for people.
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
+<h2 align="center"><img src="https://github.com/Naviid24/project-1/blob/main/assets/images/responsive.png?raw=true"></h2>
 
 ## User Experience (UX)
 
