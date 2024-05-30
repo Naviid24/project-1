@@ -11,7 +11,7 @@
 
 /* General rules */
 body {
-   min-height: 100vw;
+   
    /* allow us to strech larger than the hight of screen when there is enough content for the user needs t scroll */
    display: flex;
    /* to push Footer down use these rules  */
@@ -136,9 +136,8 @@ main {
    color:white;
 }
 /* welcoming section */
-.welcoming-note {
-    background-color: 
-    line-height: 1.5;
+.welcoming-note p { 
+    line-height: 25px;
     text-align: center;
     font-family: Cabin, sans-serif;
 }
@@ -149,6 +148,7 @@ main {
     border-top: 1px solid #464f48;
     padding: 1rem 0;
     letter-spacing: 2px;
+    text-align: center;
 }
 /* Reasons to choose us */
 #times {
@@ -164,9 +164,10 @@ main {
    padding: 15px;
    text-align: center;
    width: 200px;
-   height: 200px;
+   height: 220px;
    flex-basis: 200px;
    flex-grow: 1;
+  
 }
 #times h3 {
    color: #b84;
@@ -413,6 +414,13 @@ footer {
       background-color: transparent;
       color: #fda;
   }
+.welcoming-note p {
+   line-height: 3;
+   padding: 0 6em;
+}
+#times div {
+   margin: 20px 0;
+} 
 }
 
 
