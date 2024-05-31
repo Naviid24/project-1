@@ -296,7 +296,7 @@ main {
 #signup-form {
    color: #ffffff;
    background-color: rgb(60, 60, 60, 0.6);
-   padding: 30px;
+   padding: 20px;
 }
 #signup-form>h2 {
    color: #fafafa;
@@ -312,16 +312,25 @@ main {
    border-radius: 2px;
    padding: 0 5px;
  }  
-
- .join-button {
-   margin-top: 20px;
+.label-tours {
+   padding-right: 35px;
+   color: #fafafa;
+}
+select {
+    padding: 4px 0;
+}
+ .btn {
+   margin-top: 40px ;
+   margin-left: 40px;
    border-radius: 2px;
-   padding: 15px 32px;
-   font-size: 100%;
+   padding:17px 30px;
+   font-size: large;
    background-color: #464f48;
    color: #fafafa;
 }
-
+.btn:hover {
+   border: 1px solid red;
+}
 /*............ F o o t e r   f o r   a l l   p a g e s ...........*/
 
 footer {
@@ -410,6 +419,9 @@ footer {
    border-color: red;
   }
   #fname:hover {
+   border-color: red;
+  }
+  select:hover {
    border-color: red;
   }
   .join-button:hover {
