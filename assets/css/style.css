@@ -265,8 +265,6 @@ main {
    gap: 1em;
 }
 .gal-box > img {
-   width: 300px;
-   height: 300px;
    border-radius: 20px;
    box-shadow: rgba(1, 13, 24, 0.4) 0px 8px 24px; 
 }
