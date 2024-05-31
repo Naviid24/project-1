@@ -154,9 +154,9 @@ main {
 #times {
    background: url('../images/11.jpg') no-repeat center center/cover ;
    display: flex;
-   flex-wrap: wrap;
    justify-content: space-evenly;
-   gap: 10px;
+   flex-wrap: wrap;
+   gap: 5px;
 }
 #times div {
    color: #ffffff;
@@ -164,10 +164,8 @@ main {
    padding: 15px;
    text-align: center;
    width: 200px;
-   height: 220px;
-   flex-basis: 200px;
-   flex-grow: 1;
-  
+   height: 200px;
+   flex: 1 0 auto; 
 }
 #times h3 {
    color: #b84;
@@ -175,14 +173,13 @@ main {
    letter-spacing: 1px;
    text-align: center;
 }
-#times p {
-   line-height: 25px;
-}
+
 #benfits h2 {
    text-align: center;
    color: #b84;
    padding: 20px 0 ;
    border-top: 1px solid #464f48;
+   font-size: small;
 }
 .tour-content {
    width: 800px;
@@ -418,9 +415,6 @@ footer {
    line-height: 3;
    padding: 0 6em;
 }
-#times div {
-   margin: 20px 0;
-} 
 }
 
 
