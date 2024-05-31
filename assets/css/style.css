@@ -145,7 +145,7 @@ main {
 }
 .welcoming-note > h2, .welcoming-note > h3 {
     color:#b84;
-    font-size: medium;
+    font-size: x-large;
     background-color: #ffffff;
     border-top: 1px solid #464f48;
     padding: 1rem 0;
@@ -181,7 +181,7 @@ main {
    color: #b84;
    padding: 20px 0 ;
    border-top: 1px solid #464f48;
-   font-size: small;
+   font-size: x-large;
 }
 .tour-content {
    width: 800px;
