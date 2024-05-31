@@ -4,7 +4,7 @@
 
 It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for people.
 
-<a href="https://naviid24.github.io/project-1/"><img src="https://github.com/Naviid24/project-1/blob/main/assets/images/responsive.png?raw=true"></a>
+<a href="https://naviid24.github.io/project-1/"><img src="assets/readme-photos"></a>
 
 ## User Experience (UX)
 
