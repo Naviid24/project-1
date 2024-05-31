@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 
-/* Astrik wildcard selector to override default styles added by the browser */
+/* Asterisk wildcard selector to override default styles added by the browser */
 * {
    padding: 0;
    margin: 0;
@@ -11,19 +11,19 @@
 
 /*............. General rules ............. */
 body {
-   min-height: 100vh; 
    /* allow us to strech larger than the hight of screen when there is enough content for the user needs t scroll */
+   min-height: 100vh;
+   /* to push Footer down use these rules  */ 
    display: flex;
-   /* to push Footer down use these rules  */
    flex-direction: column;
    color:#464f48;
+    /* picked font family from Google Fonts website, copied link from the website and paste it top of the page */
    font-family: Roboto,sans-serif;
-   /* picked font family from Google Fonts website, copied link from the website and paste it top of the page */
 }
 
 #cover-text > h2, #cover-text > h3, a > h1 {
+    /* Oswald is picked from Google Fonts and secon=d value is for fallback */
    font-family: Cabin  , sans-serif;
-   /* Oswald is picked from Google Fonts and secon=d value is for fallback */
    color: #b84;
    text-transform: uppercase;
    letter-spacing: 2px;
@@ -33,27 +33,27 @@ body {
 
 header {
    background-color: #ffffff;
+    /* just padding left and right */
    padding: 0 1rem;
-   /* give just padding left and right */
-   position: fixed;
    /* with this position header is gonna stay on the top always even when you scrol */
+   position: fixed;
+/* put 99 value to make sure if there is another z-index value for another content */
    z-index: 99;
-   /* put 99 value to make sure if there is another z-index value for another content */
    width: 100%;
-   box-shadow: 0 2px 2px #464f48;
    /* first value is for horizental offsets and second is for vertical offsets and third number for howmuch dark it should be and the last value is shadow color*/
-   display: flex;
+   box-shadow: 0 2px 2px #464f48;
    /* make them in a row */
+   display: flex;
    justify-content: space-between;
+    /* show in a line vertically */
    align-items: baseline;
-   /* show in a line vertically */
 }
 /* Logo */
 header a {
-   text-decoration: none;
    /* to disapear underline */
-   color: inherit;
+   text-decoration: none;
    /* inherit value means get the body color */
+   color: inherit;
 }
 header label {
    font-size: 140%;
@@ -63,42 +63,44 @@ header label {
 }
 /* givven this class to first <a> element to show user where they are in the page when they are navigating */
 .active {
-   border-bottom: 1px solid #464f48;
    /* to mark nav bar where the user is */
+   border-bottom: 1px solid #464f48;
 }
 /* Navbar styles with dropdown */
 nav {
-   position: absolute;
    /* absolute positioning takes an element out of the normal flow of the page structure */
-   background-color: #ffffff;
+   position: absolute;
    /* back to white color as we want header to be a single object when it is open */
+   background-color: #ffffff;
    width: 100%;
    left: 0;
    padding: 0 1rem;
    box-shadow: 0 2px 2px #464f48;
-   display: none;
    /* to hide Navbar till user click on it */
-   top: 100%;
+   display: none;
    /* this value means top of the element will start from bottom of the header  */
+   top: 100%;
+   
    text-align: right
 }
 #menu {
     font-size: 110%;
-    list-style-type: none;
     /* to disappear listing points style */
+    list-style-type: none;
     letter-spacing: 2px;
     color: #b84;
  } 
  #menu li {
+   /* to make vertical space between the navbars */
     margin-bottom: 1em;
-    /* to make vertical space between the navbars */
+    
  }
 #nav-toggle:checked~nav {
    display: block;
 }
 #nav-toggle {
-   display: none;
    /* to hide the checkbox sign */
+   display: none;
 }
 .nav-toggle-label {
    font: 2rem;
@@ -107,24 +109,24 @@ nav {
 /*............. M a i n   f o r   H o m e   p a g e ...............*/
 
 main {
+    /* make main element to take up any surplus space to push footer down */
    flex: 1 0 auto;
-   /* make main element to take up any surplus space to push footer down */
-   margin-top: 47px;
    /* to push the content down */
+   margin-top: 47px;
 }
 /* Hero section */
 #hero {
    height: 600px;
    width: 100%;
    background-color: rgb(238, 219, 144);
-   background: url('../images/heroa.jpg') no-repeat center center/cover;
-   /* to be in center either vertically or horizentally */
+    /* to be in center either vertically or horizentally */
+   background: url('../images/hero-black-jeep-in-jungle.jpg') no-repeat center center/cover;
    position: relative;
 }
 #cover-text {
    font-size: 130%;
+    /*with relative position in hero and absolute position in here will be placed relative to the Hero section */
    position: absolute;
-   /*with relative position in hero and absolute position in here will be placed relative to the Hero section */
    bottom: 30px;
    width: 80%;
    min-height: 200px;
@@ -152,7 +154,7 @@ main {
 }
 /* Reasons to choose us */
 #times {
-   background: url('../images/11.jpg') no-repeat center center/cover ;
+   background: url('../images/') no-repeat center center/cover ;
    display: flex;
    justify-content: space-evenly;
    flex-wrap: wrap;
@@ -207,6 +209,7 @@ main {
 .upcoming>h3 {
    text-align: center;
    color: #464f48;
+   /* to make it nicer give it some shadow */
    box-shadow: rgba(5, 60, 112, 0.4) 10px 15px 30px;
    margin-top: 47px;
    padding: 10px;
@@ -220,6 +223,7 @@ main {
 .car img {
    height: 100%;
    width: 100%;
+   /* use border radius to make coners of the box crescent shaape not sharp */
    border-radius: 20px;
    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
 
@@ -234,8 +238,10 @@ main {
 .box1,
 .box2,
 .box3 {
+    /* flex position allow then to move when there is bigger screen to fill the surplus space */
     display: flex;
     flex-wrap: wrap;
+    /* space-evenly value is used to distribute surplus space between the elements evenly to see it nicely */
     justify-content: space-evenly;
     align-items: center;
     margin-top: 30px;
@@ -281,7 +287,7 @@ main {
 }
 /* Form */
 #signup {
-   background-image: url("../images/contact.jpg");
+   background-image: url("../images/contact-black-jeep.jpg");
    background-size: cover;
    background-position: 75%;
    padding: 20px 10% 0 10%;
