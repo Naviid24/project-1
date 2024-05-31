@@ -154,7 +154,7 @@ main {
 }
 /* Reasons to choose us */
 #times {
-   background: url('../images/') no-repeat center center/cover ;
+   background: url('../images/home-yellow-vw-next-to-tje-beach.jpg') no-repeat center center/cover ;
    display: flex;
    justify-content: space-evenly;
    flex-wrap: wrap;
@@ -319,7 +319,7 @@ main {
 select {
     padding: 4px 0;
 }
- .btn {
+ .btn-form {
    margin-top: 40px ;
    margin-left: 40px;
    border-radius: 2px;
@@ -328,7 +328,7 @@ select {
    background-color: #464f48;
    color: #fafafa;
 }
-.btn:hover {
+.btn-form:hover {
    border: 1px solid red;
 }
 /*............ F o o t e r   f o r   a l l   p a g e s ...........*/
