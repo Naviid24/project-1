@@ -406,6 +406,13 @@ footer {
       width: 300px;
       right: 50px;
    }
+   /* Contact us */
+   #contact-us {
+      font-size: large;
+   }
+   #contact-us>div>h4 {
+      margin-bottom: 10px;
+   }
    /* Tour heading */
    .upcoming>h3 {
       margin-top: 77px;
