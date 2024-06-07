@@ -124,10 +124,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   #### First Time Visitor Goals
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the club.
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
-        2. The main points are made immediately with the hero image
+        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. 
+        2. The hero image has a clear and readable cover text to show what the website is about.
         3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
 
     2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
