@@ -152,6 +152,12 @@ main {
     letter-spacing: 2px;
     text-align: center;
 }
+/* Contact us */
+#contact-us {
+   background-color: #fda;
+   text-align: center;
+}
+#phone-us
 /* Reasons to choose us */
 #times {
    background: url('../images/home-yellow-vw-next-to-tje-beach.jpg') no-repeat center center/cover ;
