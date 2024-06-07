@@ -363,7 +363,7 @@ footer {
 
    /* Header */
    nav {
-      position: block;
+      display: block;
       /* to make sure Navbars always are displayed */
       position: relative;
       /* we want it to back to header */
