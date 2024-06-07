@@ -155,9 +155,14 @@ main {
 /* Contact us */
 #contact-us {
    background-color: #fda;
+   display: flex;
+   padding: 20px;
    text-align: center;
+   justify-content: space-evenly;
+   border-top:1px solid black;
 }
-#phone-us
+
+
 /* Reasons to choose us */
 #times {
    background: url('../images/home-yellow-vw-next-to-tje-beach.jpg') no-repeat center center/cover ;
