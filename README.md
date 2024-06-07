@@ -99,7 +99,7 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 ### Frameworks, Libraries & Programs Used
 
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+    - Hover.css was used on the nav-bar in the header to add the underline while user is navigating to see which page he is on.
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Roboto' font into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
