@@ -156,12 +156,15 @@ main {
 #contact-us {
    background-color: #fda;
    display: flex;
+   flex-wrap: wrap;
    padding: 20px;
    text-align: center;
    justify-content: space-evenly;
    border-top:1px solid black;
 }
-
+#address-us {
+    margin-top: 20px;
+}
 
 /* Reasons to choose us */
 #times {
@@ -409,9 +412,13 @@ footer {
    /* Contact us */
    #contact-us {
       font-size: large;
+      margin-top: 15px;
    }
    #contact-us>div>h4 {
       margin-bottom: 10px;
+   }
+   #contact-us>div {
+      margin-top: 5px;
    }
    /* Tour heading */
    .upcoming>h3 {
