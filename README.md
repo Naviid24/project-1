@@ -120,10 +120,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 #### First Testing with error and info
 
- For all html files I had same issue, IT wasen't error or warning it was just for info and I fixed them.As you can see in my screen-shot I had closing element sign in my codes (Trailing slash) at the end of the element and also space before them, so I got back to my code and fixed it.
-1. [view](assets/code-validate/validate-code-checking.png).
-In the css file I had a property value error that you can see in the photo below.
-1. [view](assets/code-validate/css-validation-error.png).
++ For all html files I had same issue, IT wasen't error or warning it was just for info and I fixed them.As you can see in my screen-shot I had closing element sign in my codes (Trailing slash) at the end of the element and also space before them, so I got back to my code and fixed it.
+  -  [HTML file error](assets/code-validate/validate-code-checking.png).
++ In the css file I had a property value error that you can see in the photo below.
+  -  [CSS file error](assets/code-validate/css-validation-error.png).
 
 #### Second Testing after sort out issues
 
