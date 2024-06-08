@@ -68,18 +68,18 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 *   ### Wireframes
 
-    -  Pages's Wireframe for mobile screens - [View](assets/wireframes/wireframe-mobile.png)
+    - Wireframe for mobile screens - [View](assets/wireframes/wireframe-mobile.png).
 
-    -   Pages's Wireframe for tablet screens - [View](assets/wireframes/wireframe-tablet.png)
+    - Wireframe for tablet screens - [View](assets/wireframes/wireframe-tablet.png).
 
-    -   Pages's Wireframe for monitor screens - [View](assets/wireframes/wireframe-monitor.png)
+    - Wireframe for monitor screens - [View](assets/wireframes/wireframe-monitor.png).
 
 ## Features
 
 -   Responsive on all device sizes.[view](assets/readme-photos/responsive.png)
 -   Dropdown nev bar for small screen devices.[view](assets/features-photos/dropdown-navbar.png)
 -   Contact form.[view](https://naviid24.github.io/project-1/signup.html)
--   Social media links and icons.[view]()
+-   Social media links and icons.[view](assets/features-photos/social-media-icons.png)
 -   Access to user reviews.
 -   Gallery.[view](https://naviid24.github.io/project-1/gallery.html)
 -   Payment options.
@@ -115,9 +115,24 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator]()
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+
+## First Testing with error and info
+
+1- For all .html files I had same issue, IT wasen't error or warning it was just for info and I fixed them.As you can see in my screen-shot I had closing element sign in my codes (Trailing slash) at the end of the element and also space before them, so I got back to my code and fixed it.
+    - [view](assets/code-validate/validate-code-checking.png)
+2- In the .css file I had a property value error that you can see in the photo below.
+    -[view](assets/code-validate/css-validation-error.png)
+
+## Second Testing after sort out issues
+
+1- As you can see in the photos below there are no any error in my codes in the all css and html pages.
+   -[view](assets/code-validate/css-code-validation.png)
+   -[view](assets/code-validate/index-code-validation.png)
+   -[view](assets/code-validate/tours-code-validation.png)
+   -[view](assets/code-validate/gallery-code-validation.png)
+   -[view](assets/code-validate/signup-code-validation.png)
 
 ### Testing User Stories from User Experience (UX) Section
 
