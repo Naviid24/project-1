@@ -127,12 +127,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 #### Second Testing after sort out issues
 
-1. As you can see in the photos below there are no any error in my codes in the all css and html pages.
-    -[view](assets/code-validate/css-code-validation.png)
-    -[view](assets/code-validate/css-code-validation.png) 
-    -[view](assets/code-validate/tours-code-validation.png)
-    -[view](assets/code-validate/gallery-code-validation.png)
-    -[view](assets/code-validate/signup-code-validation.png)
+ As you can see in the photos below there are no any error in my codes in the all css and html pages.
+1. [view](assets/code-validate/css-code-validation.png)
+2. [view](assets/code-validate/css-code-validation.png) 
+3. [view](assets/code-validate/tours-code-validation.png)
+4. [view](assets/code-validate/gallery-code-validation.png)
+5. [view](assets/code-validate/signup-code-validation.png)
+   
 
 ### Testing User Stories from User Experience (UX) Section
 
