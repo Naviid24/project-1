@@ -116,9 +116,9 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 -   [W3C Markup Validator]()
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
-#### First Testing with error and info
+#### First testing resault with error in css files and info in html files
 
 + For all html files I had same issue, IT wasen't error or warning it was just for info and I fixed them.As you can see in my screen-shot I had closing element sign in my codes (Trailing slash) at the end of the element and also space before them, so I got back to my code and fixed it.
   -  [HTML files error](assets/code-validate/validate-code-checking.png).
