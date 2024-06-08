@@ -68,21 +68,20 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    -  Pages's Wireframe for mobile screens - [View](assets/wireframes/wireframe-mobile.png)
 
-    -   Mobile Wireframe - [View](https://github.com/)
+    -   Pages's Wireframe for tablet screens - [View](assets/wireframes/wireframe-tablet.png)
 
-    -   Contact Us Page Wireframe - [View](https://github.com/)
+    -   Pages's Wireframe for monitor screens - [View](assets/wireframes/wireframe-monitor.png)
 
 ## Features
 
--   Responsive on all device sizes.
--   Interactive elements.
--   Dropdown nev bar for small screen devices.
--   Contact form.
--   Social media links and icons.
+-   Responsive on all device sizes.[view](assets/readme-photos/responsive.png)
+-   Dropdown nev bar for small screen devices.[view](assets/features-photos/dropdown-navbar.png)
+-   Contact form.[view](https://naviid24.github.io/project-1/signup.html)
+-   Social media links and icons.[view]()
 -   Access to user reviews.
--   Gallery.
+-   Gallery.[view](https://naviid24.github.io/project-1/gallery.html)
 -   Payment options.
 -   Monthly lottery draw.
 -   Buying products.
