@@ -130,7 +130,7 @@ In the css file I had a property value error that you can see in the photo below
  As you can see in the photos below there are no any error in my codes in the all css and html pages.
 1. [view css file validation code](assets/code-validate/css-code-validation.png)
 2. [view Home page validation code](assets/code-validation-screenshots/index-code-validation.png) 
-3. [view Tour page validation code]](assets/code-validate/tours-code-validation.png)
+3. [view Tour page validation code](assets/code-validate/tours-code-validation.png)
 4. [view Gallery page validation code](assets/code-validate/gallery-code-validation.png)
 5. [view Signup page validation code](assets/code-validate/signup-code-validation.png)
    
