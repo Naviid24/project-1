@@ -139,29 +139,32 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   #### First Time Visitor Goals
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the club.
+    + As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the club.
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. 
-        2. The hero image has a clear and readable cover text to show what the website is about.
-        3. The user can scroll down, to learn more about the club.
+        - Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. 
+        - The hero image has a clear and readable cover text to show what the website is about.
+        - The user can scroll down, to learn more about the club.
 
-    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+    + As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
-        1. The site has been designed to four pages and clearly in each page the user can find needed informatiion and see all content easily.
-        2. At the bottom of the first 3 pages there are social media icons with links to ensure the user always has somewhere to go and see more about the club and doesn't feel trapped.
-        3. On the Signup Page, after a form response is submitted, the page will show the user their form has been submited successfully.
+        - The site has been designed to four pages and clearly in each page the user can find needed informatiion and see all content easily.
+        - At the bottom of the first 3 pages there are social media icons with links to ensure the user always has somewhere to go and see more about the club and doesn't feel trapped.
+        - On the Signup Page, after a form response is submitted, the page will show the user their form has been submited successfully.
 
-    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
-        1. Once the new visitor has read the About Us, they will notice the Why We are Loved So Much section.
-        2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
+    + As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
+        - Once the new visitor has read the About Us, they will notice the Why We are Loved So Much section.
+        - The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
 
-    4.As a First Time Visitor, I want to see where are they based and what is their address and their phone number.
-        1. User can see contact information in the first page of the site with a background color to ensure they are very clear to see and readable.
-        2. User can find us on our social media links and see our address there too.
-    5.As a First Time Visitor, I want to have access to a gallery to see where they have been so far and what places they have visited.
-        1. Use can navigate to the Gallery page to see many photos from different locations and tours the club has done before.
-        2. User can have more clear idea about trips and tours after navigating in Gallery page.
+    + As a First Time Visitor, I want to see where are they based and what is their address and their phone number.
+        - User can see contact information in the first page of the site with a background color to ensure they are very clear to see and readable.
+        - User can find us on our social media links and see our address there too.
+    + As a First Time Visitor, I want to have access to a gallery to see where they have been so far and what places they have visited.
+        - Use can navigate to the Gallery page to see many photos from different locations and tours the club has done before.
+        - User can have more clear idea about trips and tours after navigating in Gallery page.
 
+'''
+//comment: for the rest of First Time Visitor Goals I didn't do them in the website but I wrote them here to get back them on future because I haven't learned them yet.
+'''
 -   #### Returning Visitor Goals
 
     1. As a Returning Visitor, I want to find information about upcoming Tours.
@@ -183,9 +186,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
         2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
         3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
-       
-         //for the rest of returning visitor goals I didn't do them in the website but I wrote them here to get back them on future because I haven't learned them yet.
 
+'''       
+//comment: for the rest of returning visitor goals I didn't do them in the website but I wrote them here to get back them on future because I haven't learned them yet.
+'''
 -   #### Frequent User Goals
 
     1. As a Frequent User, I want to check to see if there are any newly added challenges .
@@ -198,9 +202,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or club.
         1. At the bottom of every page there is a footer which contain social media links throughout all pages.
-       
-    //for the rest of frequent user goals I didn't do them in the website but I wrote them here to get back them on future because I haven't learned them yet.
-    
+'''     
+//comment: for the rest of Frequent User Goals I didn't do them in the website but I wrote them here to get back them on future because I haven't learned them yet.
+'''
+
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
@@ -210,9 +215,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+- I coulden't find any bug.
 
 ## Deployment
 
@@ -260,30 +263,22 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > Unpacking objects: 100% (10/10), done.
 ```
 
-Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
-
 ## Credits
 
 ### Code
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
-
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
-
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+-   The full-screen hero image code came from this [loverunning](https://learn.codeinstitute.net/)
 
 ### Content
 
--   All content was written by the developer.
-
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
+-   All content was written by the developer and.
 
 ### Media
 
--   All Images were created by the developer.
+-   All Images were downloaded from [Pixeles website](https://www.pexels.com/)
 
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
+-   During this project, my Mentor John, advised me on many methods in this field and I learned many new things about website developing and testing and ReadMe file writing and many other things.Thanks John for all your advise.
 
--   Tutor support at Code Institute for their support.
+-   Tutor support at Code Institute helped me to set up my GitPod account.
