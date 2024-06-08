@@ -120,19 +120,19 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 #### First Testing with error and info
 
-1- For all .html files I had same issue, IT wasen't error or warning it was just for info and I fixed them.As you can see in my screen-shot I had closing element sign in my codes (Trailing slash) at the end of the element and also space before them, so I got back to my code and fixed it.
- -   [view](assets/code-validate/validate-code-checking.png).
-2- In the .css file I had a property value error that you can see in the photo below.
- -   [view](assets/code-validate/css-validation-error.png).
+ For all html files I had same issue, IT wasen't error or warning it was just for info and I fixed them.As you can see in my screen-shot I had closing element sign in my codes (Trailing slash) at the end of the element and also space before them, so I got back to my code and fixed it.
+1. [view](assets/code-validate/validate-code-checking.png).
+In the css file I had a property value error that you can see in the photo below.
+1. [view](assets/code-validate/css-validation-error.png).
 
 #### Second Testing after sort out issues
 
  As you can see in the photos below there are no any error in my codes in the all css and html pages.
-1. [view](assets/code-validate/css-code-validation.png)
-2. [view](assets/code-validate/css-code-validation.png) 
-3. [view](assets/code-validate/tours-code-validation.png)
-4. [view](assets/code-validate/gallery-code-validation.png)
-5. [view](assets/code-validate/signup-code-validation.png)
+1. [view css file validation code](assets/code-validate/css-code-validation.png)
+2. [view Home page validation code](assets/code-validation-screenshots/index-code-validation.png) 
+3. [view Tour page validation code]](assets/code-validate/tours-code-validation.png)
+4. [view Gallery page validation code](assets/code-validate/gallery-code-validation.png)
+5. [view Signup page validation code](assets/code-validate/signup-code-validation.png)
    
 
 ### Testing User Stories from User Experience (UX) Section
