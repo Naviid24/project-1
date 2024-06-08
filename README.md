@@ -162,9 +162,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         - Use can navigate to the Gallery page to see many photos from different locations and tours the club has done before.
         - User can have more clear idea about trips and tours after navigating in Gallery page.
 
-'''
+```
 //comment: for the rest of First Time Visitor Goals I didn't do them in the website but I wrote them here to get back them on future because I haven't learned them yet.
-'''
+```
 -   #### Returning Visitor Goals
 
     1. As a Returning Visitor, I want to find information about upcoming Tours.
@@ -187,9 +187,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
         3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
 
-'''       
+```     
 //comment: for the rest of returning visitor goals I didn't do them in the website but I wrote them here to get back them on future because I haven't learned them yet.
-'''
+```
 -   #### Frequent User Goals
 
     1. As a Frequent User, I want to check to see if there are any newly added challenges .
@@ -202,9 +202,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or club.
         1. At the bottom of every page there is a footer which contain social media links throughout all pages.
-'''     
-//comment: for the rest of Frequent User Goals I didn't do them in the website but I wrote them here to get back them on future because I haven't learned them yet.
-'''
+```    
+//comment: for the rest of Frequent User Goals I didn't do them in the website but I wrote them here to get back to them on future hopefully to fix them or if anyone was interested to fix them or continue them.
+```
 
 ### Further Testing
 
