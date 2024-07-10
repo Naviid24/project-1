@@ -328,8 +328,9 @@ main {
    padding-right: 35px;
    color: #fafafa;
 }
-select {
-    padding: 4px 0;
+#tour {
+    padding: 8px 30px;
+    text-align: center;
 }
  .btn-form {
    margin-top: 40px ;
