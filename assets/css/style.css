@@ -105,7 +105,10 @@ nav {
 .nav-toggle-label {
    font: 2rem;
 }
-
+/*............. M a i n   f o r   4 0 4   p a g e ............ */
+.error-message a {
+   color: blue;
+}
 /*............. M a i n   f o r   H o m e   p a g e ...............*/
 
 main {
